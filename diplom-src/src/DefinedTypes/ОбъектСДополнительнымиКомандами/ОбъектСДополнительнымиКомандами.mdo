@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
     <types>DocumentRef.ПоступлениеТоваровУслуг</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
     <types>DocumentRef.ОплатаПоставщику</types>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e8a0214-00b9-4eb7-af95-a25ef09e47cd">
+  <producedTypes>
+    <objectType typeId="57d74b28-2738-42c8-8904-a47e7ac42259" valueTypeId="27a73572-fca8-49d1-9fd7-430c763dd19a"/>
+    <refType typeId="53d219cd-a72f-4c0e-8cac-b57b070df110" valueTypeId="2713cf03-6f30-4c89-bfe5-77196f9d32d7"/>
+    <selectionType typeId="5399094a-86ae-42dc-bf3d-64f4e7ce2faf" valueTypeId="4c03958e-e862-44fd-ab80-d6da474022c5"/>
+    <listType typeId="df448199-5a2c-4b27-99ae-8b51e6318b35" valueTypeId="817984ed-722a-405d-890d-77fdd29ba9c4"/>
+    <managerType typeId="f1ff0277-986f-4fc9-89f9-ecdc0ca8792f" valueTypeId="39308904-0999-43e2-a2a9-323e9c5e5190"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="446722c0-ee6c-4477-a313-b3ae9e469a0b">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
